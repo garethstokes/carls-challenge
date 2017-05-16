@@ -6,7 +6,7 @@
  -
  - ask the user for an integer input, when received then 
  - increment the counter in memory, display the value
- - and then ask the user for more input. a
+ - and then ask the user for more input.
  -
  -}
 
