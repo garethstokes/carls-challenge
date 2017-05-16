@@ -1,0 +1,22 @@
+name:                carl
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/githubuser/carl#readme
+license:             BSD3
+author:              Garry Danger
+maintainer:          garrydanger@gmail.com
+copyright:           2017 garrydanger
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable carl-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+  build-depends:       base >= 4.7 && < 5
+                     , mtl >= 2.2 && < 2.3
+  default-language:    Haskell2010
